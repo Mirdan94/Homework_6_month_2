@@ -25,7 +25,7 @@ public class Main {
 
         System.out.println("ДО");
         for (Car cars : car) {
-            System.out.println(cars.getModel() + " " + cars.getModel() + " "
+            System.out.println(cars.getModel() + " " + cars.getVolume() + " "
                     + cars.getYear());
         }
         System.out.println("--------------------------");
@@ -33,7 +33,7 @@ public class Main {
         Collections.sort(car);
 
         for (Car cars : car) {
-            System.out.println(cars.getModel() + " " + cars.getModel() + " "
+            System.out.println(cars.getModel() + " " + cars.getVolume() + " "
                     + cars.getYear());
         }
     }
